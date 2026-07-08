@@ -1,5 +1,10 @@
-# mimic
-Dumps local MacOS user hashes to a hashcat-compatible string.
+<h1 align="center">mimic</h1>
+
+<p align="center">
+  <img src="mimic-logo.svg" alt="mimic" width="200"/>
+</p>
+
+<p align="center">Dumps local MacOS user hashes to a hashcat-compatible string.</p>
 
 Simply uses Objective-C instead of dscl/defaults read or other noisy binaries, to extract relevant data from ShadowHashData.
 
