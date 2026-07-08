@@ -6,7 +6,7 @@ Simply uses Objective-C instead of dscl/defaults read or other noisy binaries, t
 # Compilation
 Open in vscode in a mac and press F5, OR
 
-`gcc -framework Foundation -framework CoreServices -framework Collaboration main.m -o mimic`
+`clang -framework Foundation -framework AppKit -framework Collaboration main.m -o mimic`
 
 # Usage
 ```
@@ -19,6 +19,6 @@ The output per user is formatted as follows:
 `someLocalUser:` + $ml + `$iterations` + `$salt` + `$entropy`
 
 To crack the hashes using hashcat:
-`hashcat -m 7100 hashes.txt wordlist.txt`
+`hashcat -m 7100 hashes.txt wordlist.txt --username`
 
 Tested in Catalina, Mojave, Monterey etc.
