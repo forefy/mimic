@@ -49,8 +49,8 @@ void dump_hashes(char* user) {
             strcpy(new_salt, salt);
             free(salt); // Free the original salt
 
-            // get entropy from PBKDF2 - we divide the retrieved result by 2 because hashcat doesn't need more than that
-            char * entropy = hexify([[pbkdf2 objectForKey:@"entropy"] bytes], [[pbkdf2 objectForKey:@"entropy"] length]/2);
+            // get full entropy from PBKDF2 (64 bytes / 128 hex chars required for hashcat $ml$ mode)
+            char * entropy = hexify([[pbkdf2 objectForKey:@"entropy"] bytes], [[pbkdf2 objectForKey:@"entropy"] length]);
             
             // print the hashcat-able hash of the user
             // the user     someUser:
