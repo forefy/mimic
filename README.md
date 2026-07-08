@@ -3,6 +3,11 @@ Dumps local MacOS user hashes to a hashcat-compatible string.
 
 Simply uses Objective-C instead of dscl/defaults read or other noisy binaries, to extract relevant data from ShadowHashData.
 
+# Download
+Pre-built binaries available in [Releases](https://github.com/forefy/mimic/releases):
+- `mimic-arm64` — Apple Silicon (M1/M2/M3/M4)
+- `mimic-x86_64` — Intel
+
 # Compilation
 Open in vscode in a mac and press F5, OR
 
