@@ -6,6 +6,19 @@
 
 <p align="center">Dumps local MacOS user hashes to a hashcat-compatible string.</p>
 
+<p align="center">
+  <a href="https://github.com/forefy/mimic/issues/new"><img alt="Issues" title="Issues" src="https://img.shields.io/github/issues-raw/forefy/mimic"></a>
+  <img alt="Code size" title="Code size" src="https://img.shields.io/github/languages/code-size/forefy/mimic">
+  <img alt="Last commit" title="Last commit" src="https://img.shields.io/github/last-commit/forefy/mimic">
+  <img alt="macOS" title="macOS Sequoia" src="https://img.shields.io/badge/macOS-Sequoia-black?logo=apple">
+  <img alt="arch" title="Architecture" src="https://img.shields.io/badge/arch-x86__64%20%7C%20arm64-informational">
+  <a href="https://twitter.com/forefy"><img alt="Forefy Twitter" title="Follow on X" src="https://img.shields.io/twitter/follow/forefy.svg?logo=twitter"></a>
+</p>
+
+<p align="center">
+  <a href="https://t.me/forefy_t" title="Telegram DM">Telegram DM</a>
+</p>
+
 Simply uses Objective-C instead of dscl/defaults read or other noisy binaries, to extract relevant data from ShadowHashData.
 
 # Download
