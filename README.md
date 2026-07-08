@@ -21,4 +21,4 @@ The output per user is formatted as follows:
 To crack the hashes using hashcat:
 `hashcat -m 7100 hashes.txt wordlist.txt --username`
 
-Tested in Catalina, Mojave, Monterey etc.
+Tested in Catalina, Mojave, Monterey, Ventura, Sequoia - supports both x86_64 and arm64 (Apple Silicon).
